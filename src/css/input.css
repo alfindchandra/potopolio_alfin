@@ -6,16 +6,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 .hamburger-link {
-  @apply w-[30px] h-[2px] my-2 block bg-drak;
+  @apply w-[30px] h-[2px] my-2 block bg-drak dark:bg-white;
 }
 .hamburger-active > span:nth-child(1) {
-  @apply rotate-45;
+  @apply rotate-45 dark:text-white;
 }
 .hamburger-active > span:nth-child(2) {
-  @apply scale-0;
+  @apply scale-0 dark:text-white;
 }
 .hamburger-active > span:nth-child(3) {
-  @apply -rotate-45;
+  @apply -rotate-45 dark:text-white;
 }
 
 .nav-fixed {
