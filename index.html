@@ -5,17 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alfin Dwi Chandra</title>
     <link rel="stylesheet" href="public/css/style.css" />
-    <script>
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
+
+
+
+
   </head>
   <body">
     <!-- =================================================== -->
@@ -304,161 +297,145 @@
 
     <!-- =================================================== -->
     <!-- Start Project -->
-    <section id="project" class="pt-36 mb-30 dark:bg-drak">
-      <div class="container">
-        <div class="w-full px-4">
-          <div class="max-w-xl mx-auto text-center mb-16">
-            <h4 class="font-semibold text-lg text-blue mb-3">Potopolio</h4>
-            <h2 class="font-bold text-drak text-4xl mb-4 dark:text-white">
-              Project Terbaru
-            </h2>
+  <section id="projects" class="py-20 dark:bg-slate-950">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-slate-100">Projects</h2>
+        <div class="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+        <p class="text-lg text-gray-600 dark:text-slate-300 max-w-2xl mx-auto">
+          Berikut adalah beberapa proyek yang telah saya kerjakan. 
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/inovasiadi.png" alt="Inovasi Adiwarna Raya" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              Inovasi Adiwarna Raya
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Inovasi Adiwarna Raya adalah perusahaan teknologi loT terkemuka yang berbasis di Indonesia.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/Adiwarna_Raya" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
-        <div class="w-full px-4 flex flex-wrap justify-center">
-          <div class="mb-12 p-5 mx-8">
-            <div class="rounded-md shadow-md overflow-hidden relative">
-              <img
-                src="public/img/gambar1.png"
-                alt="landing page"
-                width="300"
-                height="300"
-                class=""
-              />
-              <div
-                class="absolute size-full top-0 left-0 justify-end block items-start hover:bg-blue hover:bg-opacity-80 p-1 pt-96 hover:pt-3 transition-all"
-              >
-                <a
-                  href=""
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>Link</title>
-                    <path
-                      d="M10.08 1.997A10.041 10.042 0 0 0 0 12.006a10.041 10.042 0 0 0 10.08 10 10.037 10.038 0 0 0 7.12-2.933c2.883-2.796 4.509-8.065 5.775-12.861l.038-.152.09-.343a.227.227 0 0 0-.038-.197.234.234 0 0 0-.185-.09h-1.711a.23.23 0 0 1-.215-.14.227.227 0 0 1 .053-.25l2.925-2.646v-.011a.23.23 0 0 0 .053-.246.23.23 0 0 0-.216-.143zm.385 4.645h3.847a1.686 1.686 0 0 1 1.682 1.686v3.844a1.686 1.686 0 0 1-1.682 1.686H10.47a1.686 1.686 0 0 1-1.684-1.686v-.722h1.442v.722a.246.246 0 0 0 .242.242h3.848a.242.242 0 0 0 .242-.242V8.324a.242.242 0 0 0-.242-.242H10.47a.242.242 0 0 0-.242.242v.722H8.784v-.718a1.686 1.686 0 0 1 1.684-1.686zM7.582 9.526h3.84a1.686 1.686 0 0 1 1.684 1.686v.718h-1.44v-.718a.242.242 0 0 0-.24-.242H7.577a.242.242 0 0 0-.242.242v3.847a.242.242 0 0 0 .242.242h3.847a.242.242 0 0 0 .241-.242v-.718h1.448v.718a1.686 1.686 0 0 1-1.686 1.682H7.582a1.686 1.686 0 0 1-1.69-1.682v-3.847a1.686 1.686 0 0 1 1.69-1.686z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="public/img/gambar1.png"
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>View</title>
-                    <path
-                      d="M 15.081 21.857 L 15.081 22.459 C 15.081 23.636 13.812 24.378 12.785 23.8 L 3.543 18.602 C 3.058 18.329 2.758 17.816 2.758 17.26 L 2.758 6.742 C 2.758 6.185 3.058 5.672 3.543 5.399 L 12.785 0.201 C 13.812 -0.378 15.082 0.365 15.081 1.544 L 15.081 2.145 L 16.178 1.814 C 17.167 1.517 18.163 2.258 18.162 3.29 L 18.162 3.915 L 19.511 3.746 C 20.431 3.632 21.243 4.348 21.242 5.275 L 21.242 18.726 C 21.243 19.652 20.431 20.37 19.511 20.254 L 18.162 20.085 L 18.162 20.71 C 18.163 21.743 17.167 22.484 16.178 22.186 L 15.081 21.857 Z M 15.081 20.249 L 16.621 20.71 L 16.621 3.29 L 15.081 3.753 L 15.081 20.249 Z M 18.162 5.467 L 18.162 18.534 L 19.702 18.726 L 19.702 5.275 L 18.162 5.467 Z M 2.758 16.801 L 2.758 7.2 L 2.758 16.801 Z M 4.298 6.742 L 4.298 17.26 L 13.54 22.459 L 13.54 1.544 L 4.298 6.742 Z M 5.838 7.765 L 7.379 6.995 L 7.379 17.005 L 5.838 16.235 L 5.838 7.765 Z"
-                    />
-                  </svg>
-                </a>
-              </div>
+
+        <!-- Project 2 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/coffee.png" alt="Monkey D'coffee" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              Monkey D'coffee
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Mokey D'coffee merupkan coffee shop yang bagus di Bojonegoro, coffee shop yang bernuansa alam.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/kopi-shop" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
             </div>
           </div>
-          <div class="mb-12 p-4 mx-8">
-            <div class="rounded-md shadow-md overflow-hidden relative">
-              <img src="public/img/kantin.png" alt="landing page" width="300" height="300" />
-              <div
-                class="absolute size-full top-0 left-0 justify-end block items-start hover:bg-blue hover:bg-opacity-80 p-1 pt-96 hover:pt-3 transition-all"
-              >
-                <a
-                  href=""
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current h-"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>Link</title>
-                    <path
-                      d="M10.08 1.997A10.041 10.042 0 0 0 0 12.006a10.041 10.042 0 0 0 10.08 10 10.037 10.038 0 0 0 7.12-2.933c2.883-2.796 4.509-8.065 5.775-12.861l.038-.152.09-.343a.227.227 0 0 0-.038-.197.234.234 0 0 0-.185-.09h-1.711a.23.23 0 0 1-.215-.14.227.227 0 0 1 .053-.25l2.925-2.646v-.011a.23.23 0 0 0 .053-.246.23.23 0 0 0-.216-.143zm.385 4.645h3.847a1.686 1.686 0 0 1 1.682 1.686v3.844a1.686 1.686 0 0 1-1.682 1.686H10.47a1.686 1.686 0 0 1-1.684-1.686v-.722h1.442v.722a.246.246 0 0 0 .242.242h3.848a.242.242 0 0 0 .242-.242V8.324a.242.242 0 0 0-.242-.242H10.47a.242.242 0 0 0-.242.242v.722H8.784v-.718a1.686 1.686 0 0 1 1.684-1.686zM7.582 9.526h3.84a1.686 1.686 0 0 1 1.684 1.686v.718h-1.44v-.718a.242.242 0 0 0-.24-.242H7.577a.242.242 0 0 0-.242.242v3.847a.242.242 0 0 0 .242.242h3.847a.242.242 0 0 0 .241-.242v-.718h1.448v.718a1.686 1.686 0 0 1-1.686 1.682H7.582a1.686 1.686 0 0 1-1.69-1.682v-3.847a1.686 1.686 0 0 1 1.69-1.686z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href="public/img/kantin.png"
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>View</title>
-                    <path
-                      d="M 15.081 21.857 L 15.081 22.459 C 15.081 23.636 13.812 24.378 12.785 23.8 L 3.543 18.602 C 3.058 18.329 2.758 17.816 2.758 17.26 L 2.758 6.742 C 2.758 6.185 3.058 5.672 3.543 5.399 L 12.785 0.201 C 13.812 -0.378 15.082 0.365 15.081 1.544 L 15.081 2.145 L 16.178 1.814 C 17.167 1.517 18.163 2.258 18.162 3.29 L 18.162 3.915 L 19.511 3.746 C 20.431 3.632 21.243 4.348 21.242 5.275 L 21.242 18.726 C 21.243 19.652 20.431 20.37 19.511 20.254 L 18.162 20.085 L 18.162 20.71 C 18.163 21.743 17.167 22.484 16.178 22.186 L 15.081 21.857 Z M 15.081 20.249 L 16.621 20.71 L 16.621 3.29 L 15.081 3.753 L 15.081 20.249 Z M 18.162 5.467 L 18.162 18.534 L 19.702 18.726 L 19.702 5.275 L 18.162 5.467 Z M 2.758 16.801 L 2.758 7.2 L 2.758 16.801 Z M 4.298 6.742 L 4.298 17.26 L 13.54 22.459 L 13.54 1.544 L 4.298 6.742 Z M 5.838 7.765 L 7.379 6.995 L 7.379 17.005 L 5.838 16.235 L 5.838 7.765 Z"
-                    />
-                  </svg>
-                </a>
-              </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/maza1.png" alt="Mazabuta Grub" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              Mazabuta Grub
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Mazabuta Group - Fokus dalam bisnis yang berkaitan dengan pengelolaan lingkungan dan kebersihan kota.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/MazabutaGrub" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
             </div>
           </div>
-          <div class="mb-12 p-4 mx-8">
-            <div class="rounded-md shadow-md overflow-hidden relative">
-              <img src="public/img/gambar2.png" alt="landing page" width="300" height="800" class="" />
-              <div
-                class="absolute size-full top-0 left-0 justify-end block items-start hover:bg-blue hover:bg-opacity-80 p-1 pt-96 hover:pt-3 transition-all"
-              >
-                <a
-                  href=""
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>Link</title>
-                    <path
-                      d="M10.08 1.997A10.041 10.042 0 0 0 0 12.006a10.041 10.042 0 0 0 10.08 10 10.037 10.038 0 0 0 7.12-2.933c2.883-2.796 4.509-8.065 5.775-12.861l.038-.152.09-.343a.227.227 0 0 0-.038-.197.234.234 0 0 0-.185-.09h-1.711a.23.23 0 0 1-.215-.14.227.227 0 0 1 .053-.25l2.925-2.646v-.011a.23.23 0 0 0 .053-.246.23.23 0 0 0-.216-.143zm.385 4.645h3.847a1.686 1.686 0 0 1 1.682 1.686v3.844a1.686 1.686 0 0 1-1.682 1.686H10.47a1.686 1.686 0 0 1-1.684-1.686v-.722h1.442v.722a.246.246 0 0 0 .242.242h3.848a.242.242 0 0 0 .242-.242V8.324a.242.242 0 0 0-.242-.242H10.47a.242.242 0 0 0-.242.242v.722H8.784v-.718a1.686 1.686 0 0 1 1.684-1.686zM7.582 9.526h3.84a1.686 1.686 0 0 1 1.684 1.686v.718h-1.44v-.718a.242.242 0 0 0-.24-.242H7.577a.242.242 0 0 0-.242.242v3.847a.242.242 0 0 0 .242.242h3.847a.242.242 0 0 0 .241-.242v-.718h1.448v.718a1.686 1.686 0 0 1-1.686 1.682H7.582a1.686 1.686 0 0 1-1.69-1.682v-3.847a1.686 1.686 0 0 1 1.69-1.686z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  href=""
-                  target="_blank"
-                  class="w-9 h-9 my-0 mt-1 ml-2 rounded-md flex justify-center items-center border border-yellow-500 text-yellow-400 hover:border-yellow-400 hover:bg-yellow-400 hover:text-drak"
-                >
-                  <svg
-                    class="fill-current"
-                    role="img"
-                    width="22"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title>View</title>
-                    <path
-                      d="M 15.081 21.857 L 15.081 22.459 C 15.081 23.636 13.812 24.378 12.785 23.8 L 3.543 18.602 C 3.058 18.329 2.758 17.816 2.758 17.26 L 2.758 6.742 C 2.758 6.185 3.058 5.672 3.543 5.399 L 12.785 0.201 C 13.812 -0.378 15.082 0.365 15.081 1.544 L 15.081 2.145 L 16.178 1.814 C 17.167 1.517 18.163 2.258 18.162 3.29 L 18.162 3.915 L 19.511 3.746 C 20.431 3.632 21.243 4.348 21.242 5.275 L 21.242 18.726 C 21.243 19.652 20.431 20.37 19.511 20.254 L 18.162 20.085 L 18.162 20.71 C 18.163 21.743 17.167 22.484 16.178 22.186 L 15.081 21.857 Z M 15.081 20.249 L 16.621 20.71 L 16.621 3.29 L 15.081 3.753 L 15.081 20.249 Z M 18.162 5.467 L 18.162 18.534 L 19.702 18.726 L 19.702 5.275 L 18.162 5.467 Z M 2.758 16.801 L 2.758 7.2 L 2.758 16.801 Z M 4.298 6.742 L 4.298 17.26 L 13.54 22.459 L 13.54 1.544 L 4.298 6.742 Z M 5.838 7.765 L 7.379 6.995 L 7.379 17.005 L 5.838 16.235 L 5.838 7.765 Z"
-                    />
-                  </svg>
-                </a>
-              </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/joki1.png" alt="joki tugas online" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              joki tugas online
+            </h3>
+            <p class="text-gray-400 mb-4">
+              web site ini untuk memudahkan pekerja untuk menyelesaikan pekerjaan di rumah.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/Jojone_jokitugasonline" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/bujoni1.png" alt="Toko Bu Joni" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              Toko Bu Joni
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Web site ini untuk memudahkan peanggan untuk membeli makanan dan minuman di Toko Bu Joni.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/tokowa" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="relative w-full h-56">
+            <img src="public/img/gor.png" alt="Gor Bojonegoro" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-gray-300 mb-2">
+              Gor Bojonegoro
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Web Site merupakan hasil pemikiran saya tentang kota Bojonegoro, agar gor ini mudah dikunjungi.
+            </p>
+            
+            <div class="mt-4">
+              <a href="https://github.com/alfindchandra/" target="_blank" rel="noopener noreferrer" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
+                GitHub
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
     <!-- =================================================== -->
     <!-- End Project -->
 
@@ -683,5 +660,16 @@
       </div>
     </footer>
     <script src="public/js/script.js"></script>
+        <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </body>
 </html>
